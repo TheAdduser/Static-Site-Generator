@@ -1,8 +1,10 @@
 from textnode import TextNode
 
-def main():
-    object = TextNode("This is some anchor text", "link", "https://www.boot.dev")
-    print (repr(object))
 
-if __name__=="__main__":
+def main():
+    node = TextNode("This is a text node", TextType.BOLD, "https://www.boot.dev")
+    print(repr(object))
+
+
+if __name__ == "__main__":
     main()
