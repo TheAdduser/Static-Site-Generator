@@ -1,7 +1,6 @@
 from enum import Enum
 from html import LeafNode
 
-
 class TextType(Enum):
     TEXT = "text"
     BOLD = "bold"
