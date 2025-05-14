@@ -1,5 +1,5 @@
 import unittest
-from delimiter import extract_markdown_images, extract_markdown_links
+from inline_markdown import extract_markdown_images, extract_markdown_links
 
 
 class TestMarkdownExtraction(unittest.TestCase):
