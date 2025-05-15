@@ -191,6 +191,11 @@ class TestInlineMarkdown(unittest.TestCase):
             nodes,
         )
 
+    def test_extract_markdown_titles(self):
+        text = "# This is a title"
+        matches = extract_markdown_links(text)
+        self.assertListEqual([], matches)
+
 
 if __name__ == "__main__":
     unittest.main()
